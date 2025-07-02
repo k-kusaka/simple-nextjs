@@ -1,0 +1,23 @@
+# ビルド・依存関係のディレクトリ
+/.next/
+/out/
+/node_modules/
+
+# 環境変数ファイル
+.env*
+
+# 自動生成されるファイル
+*.d.ts
+*.min.*
+
+# テストカバレッジ
+/coverage/
+
+# パッケージマネージャーのファイル
+package-lock.json
+
+# Git関連
+/.git/
+
+# ログファイル
+*.log
