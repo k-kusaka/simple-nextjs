@@ -67,7 +67,7 @@ const eslintConfig = [
         'error',
         {
           selector: 'variable',
-          format: ['camelCase', 'UPPER_CASE'],
+          format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
           leadingUnderscore: 'allow',
           trailingUnderscore: 'forbid',
         },
